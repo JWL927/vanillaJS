@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2 class="clock"></h2>
+            <form class="hidden login-form">
+                <input required maxlength="15" placeholder="What is your name?" type="text" class="name"/>
+                <input type="submit" value="LOGIN" class="login"/>
+            </form>
+            <h1 id="greeting" class="hidden"></h1>
+            <form id="todo-form">
+                <input type="text" placeholder="What is your goal today?" required/>
+            </form>
+            <ul id="todo-list"></ul>
+            <div id="quote">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/todo.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <!-- particles on the background like a stars in the sky,
+    and ask what is your name on the center of the screen or 
+    make it like my first django project you can find it on my
+    laptop, -->
+</body>
+</html>
