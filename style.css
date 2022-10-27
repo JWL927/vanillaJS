@@ -70,7 +70,7 @@ img {
 #greeting {
     font-size: 50px;
     margin: 20px;
-    -webkit-text-stroke: 2px black;
+    color: black;
 }
 #todo-form input {
     width: 300px;
@@ -128,12 +128,38 @@ img {
 #quote {
     font-size: 30px;
     font-weight: bold;
-    -webkit-text-stroke: 0.5px black;
+    color: black;
 }
 .hidden {
     display: none;
 }
-@media screen and (max-width: 1300px), (max-height: 1000px) {
+@media screen and (max-width: 1800px) {
+    .container {
+        height: 90%;
+    }
+    #greeting {
+        font-size: 35px;
+        margin: 15px;
+    }
+    .clock {
+        font-size: 120px;
+    }
+    #todo-form input {
+        width: 250px;
+        height: 25px;
+        font-size: 17.5px;
+        margin-bottom: 15px;
+    }
+    #todo-list {
+        font-size: 25px;
+        margin-bottom: 45px;
+        height: 275px;
+    }
+    #quote {
+        font-size: 22.5px;
+    }
+}
+@media screen and (max-width: 1600px), (max-height: 1000px) {
     .container {
         height: 80%;
     }
