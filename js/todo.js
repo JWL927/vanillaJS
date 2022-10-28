@@ -38,6 +38,9 @@ const handleToDoSubmit = (event) => {
         text: newToDo,
         id: Date.now(),
     };
+    if(toDos.length === 7) {
+        return alert("To many things to do today...");
+    }
     toDos.push(newToDoObj);
     paintToDo(newToDoObj);
     saveToDos();

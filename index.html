@@ -37,29 +37,12 @@
     <script src="js/background.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            new TypeIt("#element", { 
-                lifeLike: false, 
-                speed: 0 
-            })
-                .type("T")
-                .pause(136)
-                .type("o")
-                .pause(435)
-                .type("d")
-                .pause(90)
-                .type("o")
-                .pause(842)
-                .type("-")
-                .pause(551)
-                .type("L")
-                .pause(332)
-                .type("i")
-                .pause(100)
-                .type("s")
-                .pause(103)
-                .type("t")
-                .pause(3870)
-                .go();
+            new TypeIt("#element", {
+                strings: 'Todo-List.',
+                afterComplete: function (instance) {
+                    instance.destroy();
+                }
+            }).go();
         });
       </script>
     <!-- particles on the background like a stars in the sky,

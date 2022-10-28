@@ -21,6 +21,7 @@ body {
     font-size: 70px;
     color: black;
     font-weight: bold;
+    box-shadow: 5px 5px 5px gray;
 }
 .bgImg {
     position: absolute;
@@ -144,6 +145,9 @@ body {
     display: none;
 }
 @media screen and (max-width: 1800px) {
+    .nav #element {
+        font-size: 60px;
+    }
     #greeting {
         font-size: 35px;
         margin: 15px;
@@ -167,6 +171,9 @@ body {
     }
 }
 @media screen and (max-width: 1600px), (max-height: 1000px) {
+    .nav #element {
+        font-size: 50px;
+    }
     #greeting {
         font-size: 30px;
         margin: 10px;

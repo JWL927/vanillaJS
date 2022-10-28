@@ -17,7 +17,7 @@ const quotes = [
       author: "Helen Keller",
     },
     {
-      quote: "To Travel is to Live",
+      quote: "To Travel is to Live.",
       author: "Hans Christian Andersen",
     },
     {
