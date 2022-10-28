@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="nav">
+        <span id="element"></span>
+    </div>
     <div class="container">
         <div class="content">
             <h2 class="clock"></h2>
@@ -31,6 +35,33 @@
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new TypeIt("#element", { 
+                lifeLike: false, 
+                speed: 0 
+            })
+                .type("T")
+                .pause(136)
+                .type("o")
+                .pause(435)
+                .type("d")
+                .pause(90)
+                .type("o")
+                .pause(842)
+                .type("-")
+                .pause(551)
+                .type("L")
+                .pause(332)
+                .type("i")
+                .pause(100)
+                .type("s")
+                .pause(103)
+                .type("t")
+                .pause(3870)
+                .go();
+        });
+      </script>
     <!-- particles on the background like a stars in the sky,
     and ask what is your name on the center of the screen or 
     make it like my first django project you can find it on my

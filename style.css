@@ -12,7 +12,17 @@ body {
     width: 100%;
     height: 100%;
 }
-img {
+.nav {
+    width: auto;
+    height: 100px;
+    padding: 30px;
+}
+.nav #element {
+    font-size: 70px;
+    color: black;
+    font-weight: bold;
+}
+.bgImg {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,7 +32,7 @@ img {
 }
 .container {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,9 +144,6 @@ img {
     display: none;
 }
 @media screen and (max-width: 1800px) {
-    .container {
-        height: 90%;
-    }
     #greeting {
         font-size: 35px;
         margin: 15px;
@@ -160,9 +167,6 @@ img {
     }
 }
 @media screen and (max-width: 1600px), (max-height: 1000px) {
-    .container {
-        height: 80%;
-    }
     #greeting {
         font-size: 30px;
         margin: 10px;
