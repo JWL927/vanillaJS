@@ -14,7 +14,7 @@ body {
 }
 .nav {
     width: auto;
-    height: 100px;
+    height: 70px;
     padding: 30px;
 }
 .nav #element {
@@ -48,6 +48,12 @@ body {
     background-color: rgba(255, 249, 233, 0.5);
     border-radius: 20px;
     padding: 50px;
+}
+.description {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    margin: 100px 0px;
 }
 .clock {
     font-size: 130px;
@@ -193,6 +199,58 @@ body {
         height: 250px;
     }
     #quote {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1400px), (max-height: 800px) {
+    .nav #element {
+        font-size: 40px;
+    }
+    #greeting {
+        font-size: 25px;
+        margin: 5px;
+    }
+    .clock {
+        font-size: 100px;
+    }
+    #todo-form input {
+        width: 150px;
+        height: 15px;
+        font-size: 12.5px;
+        margin-bottom: 5px;
+    }
+    #todo-list {
         font-size: 15px;
+        margin-bottom: 35px;
+        height: 235px;
+    }
+    #quote {
+        font-size: 17.5px;
+    }
+}
+@media screen and (max-width: 1300px), (max-height: 800px) {
+    .nav #element {
+        font-size: 35px;
+    }
+    #greeting {
+        font-size: 20px;
+        margin: 5px;
+    }
+    .clock {
+        font-size: 70px;
+    }
+    #todo-form input {
+        width: 115px;
+        height: 10px;
+        font-size: 10px;
+        margin-bottom: 2.5px;
+    }
+    #todo-list {
+        font-size: 10px;
+        margin-bottom: 20px;
+        height: 200px;
+    }
+    #quote {
+        font-size: 12.5px;
     }
 }
