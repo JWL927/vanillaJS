@@ -150,6 +150,9 @@ body {
 .hidden {
     display: none;
 }
+a {
+    text-decoration: none;
+}
 @media screen and (max-width: 1800px) {
     .nav #element {
         font-size: 60px;
