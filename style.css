@@ -23,6 +23,9 @@ body {
     width: auto;
     height: 70px;
     padding: 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .nav #element {
     font-size: 70px;
