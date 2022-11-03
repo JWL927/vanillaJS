@@ -1,0 +1,1 @@
+// add nav animation that changes the color of navbar when it is scrolled

@@ -26,12 +26,30 @@ body {
     position: sticky;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav #element {
     font-size: 70px;
     color: black;
     font-weight: bold;
     box-shadow: 5px 5px 5px gray;
+}
+.imgchangebtn {
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+    box-shadow: 0 3px 0 rgb(102, 102, 102);
+}
+.imgchangebtn:hover {
+    background-color: rgb(201, 200, 200);
+}
+.imgchangebtn:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px 0 rgb(102, 102, 102);
 }
 .bgImg {
     position: absolute;
@@ -167,6 +185,9 @@ a {
     .nav #element {
         font-size: 60px;
     }
+    .imgchangebtn {
+        font-size: 25px;
+    }
     #greeting {
         font-size: 35px;
         margin: 15px;
@@ -192,6 +213,9 @@ a {
 @media screen and (max-width: 1600px), (max-height: 1000px) {
     .nav #element {
         font-size: 50px;
+    }
+    .imgchangebtn {
+        font-size: 20px;
     }
     #greeting {
         font-size: 30px;
@@ -219,6 +243,9 @@ a {
     .nav #element {
         font-size: 40px;
     }
+    .imgchangebtn {
+        font-size: 20px;
+    }
     #greeting {
         font-size: 25px;
         margin: 5px;
@@ -244,6 +271,9 @@ a {
 @media screen and (max-width: 1300px), (max-height: 800px) {
     .nav #element {
         font-size: 35px;
+    }
+    .imgchangebtn {
+        font-size: 15px;
     }
     #greeting {
         font-size: 20px;
